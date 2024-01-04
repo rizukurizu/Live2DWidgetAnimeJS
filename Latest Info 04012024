@@ -1,0 +1,39 @@
+Info Terbaru
+
+Ini Script Works All Site (Mobile, Desktop)
+Script Terbaru ada Di Bawah 
+
+<!-- Waifu Chara | Paste Di atas </Body>-->
+<script src='https://l2dwidget.js.org/lib/L2Dwidget.min.js'/>
+    <script type='text/javascript'>
+
+      L2Dwidget
+        .init({
+           model: {
+               jsonPath: &quot;https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json&quot;},
+            display: {
+                &quot;position&quot;: &quot;right&quot;,
+                &quot;width&quot;: 150,
+                &quot;height&quot;: 300,
+                &quot;hOffset&quot;: 50,
+                &quot;vOffset&quot;: -50,
+            },
+           mobile: { 
+               show: true,
+               scale: 1
+           },
+          dialog: {
+            enable: true,
+            script: {
+              &#39;every idle 10s&#39;: &#39;$hitokoto$&#39;,
+              &#39;hover .star&#39;: &#39;kalau bintang-bintang ada di langit, kalau kamu ada di hatiku (*/ω&#65340;*)&#39;,
+              &#39;tap body&#39;: &#39;Ups! Jangan sentuh aku!&#39;,
+              &#39;tap face&#39;: &#39;Aku bukan anak-anak lagi!&#39;
+            }
+          }
+        });
+    </script>  
+
+Bagian json path bisa di ganti sesuai character yang di inginkan
+
+source https://www.yukinoshita.web.id/2020/11/cara-membuat-widget-anime-di-blog.html, https://www.yukinoshita.web.id/2020/11/cara-mengganti-model-anime-live2d.html
